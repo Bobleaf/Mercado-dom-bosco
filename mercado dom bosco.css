@@ -93,3 +93,8 @@ header img{ /*aqui estamos chamando nossa imagem para ser atribuidas alteraçõe
     list-style: none;/*estilo de lista desabilitada*/
     padding: 0;/*preenchimento zerado, podendo tambem ser retirado para teste*/
 }
+
+.nav-links-mobile li{ /*listas da versão mobile*/
+    border-radius: 1px solid #787272;/*bordar inferior de cada lista*/
+    padding: 1.2rem;/*tamanho da borda*/
+}
