@@ -10,244 +10,189 @@
 </head>
 
 <body>
-    <header>
-
-        <img src="img/tangirina.png" alt="icone tangerina">
-
-        <h1>EMPÓRIO DOM BOSCO</h1>
-
-        <nav class="navbar">
-
-            <!-- criamos nossas listas quando tiver em formato desktop -->
-
-            <ul class="nav-links">
-
-                <li class="item-menu-header">
-                    <a href="index.html">HOME</a>
-                </li>
-
-                <li class="item-menu-header">
-                    <a href="#featured-products">PRODUTOS</a>
-                </li>
-
-                <li class="item-menu-header">
-                    <a href="#contatos">CONTATO</a>
-                </li>
-
-                <li class="item-menu-header">
-                    <a href="#sobre-nos">SOBRE NÓS</a>
-                </li>
-            </ul>
-            <!-- criamos nossa caixa div para guardar os elementos do hamburguer quando estiver aberto -->
-
-            <div class="mobile-menu" id="mobileMenu">
-
-                <!-- botão para ser utilizado para fechamento da lista -->
-
-                <button id="closeButton" class="close">
-
-                    <i class="fas fa-times"></i>
-
-                </button>
+</header>
 
 
 
-                <!-- Essa lista é do Menu Hamburguer quando estiver aberto. -->
+<div id="img-destaque">
+  <div class="img-padaria efeito-img-topo"></div>
+</div>
 
-                <ul class="nav-links-mobile">
-                    <li>
-                        <a href="">TESTE</a>
-                    </li>
-
-                    <li>
-                        <a href="">TESTE</a>
-                    </li>
-
-                    <li>
-                        <a href="">TESTE</a>
-                    </li>
-
-                </ul>
-
-                <div id="btn-mobile" class="cad-mobile">
-
-                    <button>
-
-                        <a href="form.html" target="_blank">
-
-                            <!-- <img src="img/user.png" alt=""> -->
-
-                            <p>Cadastre-se</p>
-                        </a>
-
-                    </button>
-
-                </div>
-
-                <!-- fim da caixa do menu hamburguer (quando estiver aberto) -->
-
-            </div>
-
-            <!-- botão de hamburguer, ele está fora da div justamente por ser um elemento singular-->
-
-            <button class="hamburguer" id="hamburguerButton">
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <!-- fim do menu de navegação -->
-        </nav>
+<div class="img-div"></div>
 
 
-        <div id="btn-header">
-            <button>
-                <a href="form.html" target="_blank">
 
-                    <img src="img/user.png" alt=" humano">
 
-                    <p>Cadastre-se</p>
-                </a>
+<main>
+  <section id="clients" class="clientes-efeito">
 
-            </button>
+    <h2>NOSSOS CLIENTES</h2>
 
-        </div>
+    <hr class="line">
 
-    </header>
+    <ul id="clients-list">
+<!-- Primeiro Feedback -->
+      <li class="clients-item">
+        <img src="img/personagem.png" alt="ícone personagem" loading="lazy">
+        <h3>Igor Oliveira</h3>
+        <p>"Ótimos produtos e serviços"</p>
+      </li>
 
-    <div id="img-destaque">
-        <div class="img-padaria efeito-img-topo"></div>
+<!-- Segundo Feedback -->
+      <li class="clients-item perso-femi">
+        <img src="img/personagemfemi.png" alt="ícone personagem"  loading="lazy">
+        <h3>Isadora Martins</h3>
+        <p>"Excelente preço"</p>
+      </li>
+
+    <!-- Terceiro Feedback -->
+      <li class="clients-item">
+        <img src="img/personagem.png" alt="ícone personagem" loading="lazy">
+        <h3>Samuel Rodrigues de Souza</h3>
+        <p>"Pães frescos e de ótima qualidade"</p>
+      </li>
+
+    </ul>
+
+  </section>
+
+  <div class="img-div"></div>
+
+
+
+
+
+  <section id="featured-products" class="principais-produtos">
+
+    <h2>PRINCIPAIS PRODUTOS</h2>
+    
+<!-- Div pai -->
+    <div class="products">
+<!-- Caixa MUFFLIN -->
+      <div>
+        <img src="img/muflin.jpg" alt="ícone Mufflin" class="img-product" loading="lazy">
+        <h4 class="title-products">Mufflin</h4>
+      </div>
+<!-- Caixa Croissant -->
+      <div>
+        <img src="img/croissant.jpeg" alt="ícone Croissant" class="img-product" loading="lazy">
+        <h4 class="title-products">Croissant</h4>
+      </div>
+
     </div>
 
-    <div class="img-div"></div>
 
-    <main>
-        <section id="clients" class="clientes-efeito">
-            <h2>NOSSOS CLIENTES</h2>
 
-            <hr class="line">
+<!-- Div Pai 2 -->
+    <div class="products">
+<!-- Caixa Bolo -->
+      <div>
+        <img src="img/bolo.jpg" alt="Imagem bolo" class="img-product" loading="lazy">
+        <h4 class="title-products">Bolos</h4>
+      </div>
+<!-- Caixa Bomba de Chocolate -->
+      <div>
+        <img src="img/bomba-chocolate.jpg" alt="Imagem Bomba Chocolate" class="img-product" loading="lazy">
+        <h4 class="title-products">Bomba de Chocolate</h4>
+      </div>
 
-            <ul id="clients-list">
-                <!-- primeiro feedback -->
-                <li class="clientes-item">
-                    <img src="img/personagem.png" alt="icones personagem" loading="lazy">
-                    <h3>Igor Oliveira</h3>
-                    <p>"Ótimos produtos e serviços"</p>
-                </li>
+    </div>
 
-                <!-- segundo feedback -->
-                <li class="clientes-item">
-                    <img src="img/personagemfemi.png" alt="icones personagem">
-                    <h3>isadora martins</h3>
-                    <p>"excelente preço"</p>
-                </li>
 
-                <li class="clientes-item">
-                    <img src="img/personagem.png" alt="icones personagem">
-                    <h3>Samuel rodrigues de souza</h3>
-                    <p>"Pães frescos e de ótima qualidade"</p>
-                </li>
-            </ul>
-        </section>
-        <div class="img-div"></div>
 
-        <section id="featured-products" class="principais-produtos">
-            <h2>PRINCIPAIS PRODUTOS</h2>
-            <!-- Div pai -->
-            <div class="productis">
-                <!-- caixas mufflin -->
-                <div>
-                    <img src="img/muflin.jpg" alt="muflin" class="img-product" loading="lazy">
-                    <h4 class="title-products">Mufflin</h4>
-                </div>
-                <!-- caixa croissant -->
-                <div>
-                    <img src="img/croissant.jpeg" alt="croissant" class="img-product" loading="lazy">
-                    <h4>Croissant</h4>
-                </div>
 
-            </div>
+    <!-- Div Pai 3 -->
+    <div class="products">
+<!-- Caixa Beirute -->
+      <div>
+        <img src="img/beirute.png" alt="Imagem Beirute" class="img-product" loading="lazy">
+        <h4 class="title-products">Beirute</h4>
+      </div>
+<!-- Caixa Pão de Metro -->
+      <div>
+        <img src="img/pao-de-metro.jpg" alt="Imagem Metro" class="img-product" loading="lazy">
+        <h4 class="title-products">Pão de metro</h4>
+      </div>
 
-            <!-- caixa bolo -->
-            <div class="productis">
+    </div>
 
-                <div>
-                    <img src="img/bolo.jpg" alt="bolo" class="img-product" loading="lazy">
-                    <h4 class="title-products">Bolo</h4>
-                </div>
-                <!-- caixa bomba de chocolate -->
-                <div>
-                    <img src="img/bomba-chocolate.jpg" alt="bomba-chocolate" class="img-product" loading="lazy">
-                    <h4>Bomba-chocolate</h4>
-                </div>
+    <a href="products.html">
+      ver tudo
+    </a>
 
-            </div>
+  </section>
 
-            <div>
-                <!-- cixa beirute -->
-                <img src="img/beirute.png" alt="beirute" class="img-product" loading="lazy">
-                <h4 class="title-products">Beirute</h4>
-            </div>
 
-            <div>
 
-                <!-- caixa pão -->
-                <img src="img/pao-de-metro.jpg" alt="pao-de-metro" class="img-product" loading="lazy">
-                <h4>Pão-de-metro</h4>
-            </div>
+  <!-- sessão SOBRE NÓS -->
+  <section id="sobre-nos">
+<!-- Título da minha sessão -->
+    <h3>SOBRE NÓS</h3>
+<!-- Parágrafo -->
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+      libero neque, lacinia sed ex id, egestas scelerisque elit. Nullam
+      commodo, justo non aliquet mollis, mauris nunc hendrerit nisl,
+      rhoncus aliquam magna nunc sed felis. Etiam quis velit at ante tempus bibendum. Ut dapibus consequat neque, et
+      varius erat condimentum at. Mauris finibus porta nibh, et feugiat urna sodales non. Nam tristique, mi
+      condimentum condimentum euismod, libero odio maximus velit, sed placerat nibh leo tristique massa. Sed tincidunt
+      condimentum fermentum. Sed at metus vitae nisi sagittis venenatis. Donec id risus leo.
+      Nullam facilisis risus auctor ante sollicitudin aliquet<br>
 
-            </div>
+    <p>Estibulum molestie ligula sit amet purus congue, in tristique metus rutrum. Aenean porta volutpat lacus, nec
+      fringilla augue porttitor et. Pellentesque sit amet justo neque. Quisque a dapibus purus. Etiam feugiat massa
+      quis lectus pellentesque pretium. Nam blandit mi metus, et lacinia neque porttitor sed. Aenean vitae lectus
+      urna. Quisque eu enim elit. Sed ornare sollicitudin magna a varius.
+      Sed nec lacus id elit molestie rutrum ut et neque.
+      Pulvinar in metus sit amet ultricies. Proin posuere rutrum mi. Phasellus turpis turpis, placerat ac sem non,
+      elementum bibendum quam. Nullam varius nunc a lectus consectetur auctor. Aenean luctus sagittis ex, at pharetra
+      dolor ultricies ac. Morbi sed tristique quam. Nulla facilisi. Proin volutpat, mi nec varius laoreet, leo sem
+      congue nunc, id lobortis justo metus nec lectus.
+    </p>
 
-            <a href="products.html">ver tudo</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Quia saepe, illo ex blanditiis dolorem dicta non doloremque,
+      autem temporibus deserunt quos!
+      Ab debitis inventore ad repudiandae, fuga odio qui quas.</p>
 
-        </section>
+  </section>
 
-        <section id="sobre-nos">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, error sed? Id asperiores debitis
-                tempore distinctio obcaecati, pariatur omnis, ipsa nihil corporis placeat perspiciatis enim mollitia
-                adipisci. Ab, unde voluptas.
-            </p>
+</main>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aliquam dolore quam corrupti error,
-                incidunt iste omnis, minus ad, a consequuntur iusto praesentium! Dignissimos ducimus commodi
-                voluptatibus nemo dolorum at?</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum qui error optio debitis fuga delectus cum
-                quaerat placeat vitae repellendus voluptas tempore dolorem, beatae cupiditate quo autem! Ullam,
-                exercitationem distinctio.</p>
-        </section>
-    </main>
+<footer id="contatos">
 
-    <footer id="contatos">
-        <h2>contatos</h2>
-        <ul class="contatos">
-            <div>
-                <li class="item-menu-footer">
-                    <img src="img/icon-telephone.png" alt="telefone" loading="lazy">
-                    <p>11 4002-8922</p>
-                </li>
+  <h2>CONTATOS</h2>
 
-                <li class="item-menu-footer">
-                    <img src="img/icon-local.png" alt="mapa" loading="lazy">
-                    <p>rua dom bosco,757</p>
-                </li>
+  <ul class="contatos">
 
-                
-            </div>
+    <div>
+      <li class="item-menu-footer">
+        <img src="img/icon-telephone.png" alt="" loading="lazy">
+        <p>(11) 4002-8922</p>
+      </li>
+      <li class="item-menu-footer">
+        <img src="img/icon-local.png" alt="" loading="lazy">
+        <p>Rua Dom Bosco, 757</p>
+      </li>
+    </div>
 
-            <div>
-                <li class="item-menu-footer">
-                    <img src="img/icon-wpp.png alt=" alt="zap" loading="lazy">
-                    <p>11 90000-0050</p>
-                </li>
+    <div>
+      <li class="item-menu-footer">
+        <img src="img/icon-wpp.png" alt="ícone whatsapp" loading="lazy">
+        <p>(11) 90000-0050</p>
+      </li>
+      <li class="item-menu-footer">
+        <img src="img/icon-instagram.png" alt="ícone instagram" loading="lazy">
+        <p>@emporiodombosco</p>
+      </li>
+    </div>
+  </ul>
 
-                <li class="item-menu-footer">
-                    <img src="img/icon-instagram.png" alt="insta" loading="lazy">
-                    <p>@emporiopadaria</p>
-                </li>
-            </div>
+</footer>
 
-        </ul>
-    </footer>
+<script src="script.js"></script>
+
 </body>
 
 </html>
