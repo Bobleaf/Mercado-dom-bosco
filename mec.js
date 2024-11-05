@@ -23,7 +23,7 @@ revelar.reveal('.clientes-efeito', {
     distance: '120px'
 })
 
-revelar.reveal('.principais-produtos', {
+revelar.reveal('.sobre-nos-js', {
     duration: 2000,
     distance: '200px'
 })
